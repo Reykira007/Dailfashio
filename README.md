@@ -1,3 +1,4 @@
+```bash
 Alias /phpmyadmin /usr/share/phpmyadmin
 
 <Directory /usr/share/phpmyadmin>
@@ -29,6 +30,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
         Require valid-user
     </IfModule>
 </Directory>
+```
 
 # Disallow web access to directories that don't need it
 <Directory /usr/share/phpmyadmin/templates>
